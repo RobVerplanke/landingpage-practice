@@ -1,6 +1,7 @@
 body{
     display: flex;
     flex-direction: column;
+    font-family:Arial, Helvetica, sans-serif;
 
 }
 
@@ -10,7 +11,7 @@ ul{
 }
 
 .header{
-    border: 1px solid red;
+    background-color: #1F2937;
 
 }
 
@@ -18,37 +19,104 @@ ul{
     border: 1px solid black;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
 }
 
 .header-links{
     border: 1px solid red;
     display: flex;
+    flex-wrap: wrap;
+    color: #E5E7EB;
+    font-size: 18px;
 
 }
+
+.header-logo{
+    border: 1px solid red;
+    font-size: 24px;
+    color: #F9FAF8;
+
+}
+
 
 .header-bottom{
     border: 1px solid red;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
+.header-title{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    border: 1px solid red;
+}
 
+.title{
+    border: 1px solid red;
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.subtitle{
+    border: 1px solid red;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.signup-button{
+    border: 1px solid red;
+    color: #F9FAF8;
+}
+
+.header-img{
+    border: 1px solid red;
+    color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: flex-end;
+}
 
 .main-img{
+    display: flex;
+    flex-direction: column;
     border: 1px solid blue;
     flex:1;
-
+ 
 }
 
+.main-info{
+    display:flex;
+    flex:1;
+    justify-content: space-around;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.img{
+ 
+    border: 1px solid red;
+    width: 165px;
+    height: 165px;
+}
 .main-container{
     display: flex;
+    flex:1;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
 }
 
 
 
 .main-quote{
+    background-color: #E5E7EB;
     border: 1px solid green;
     display: flex;
     flex-direction: column;
@@ -56,11 +124,16 @@ ul{
 
 .quote{
     border: 1px solid red;
+    font-size: 36px;
+    font-weight:300;
+    color: #1F2937;
+    font-style: italic;
 }
 
 .quote-name{
     border: 1px solid green;
     align-self: flex-end;
+    font-weight: bold;
 
 }
 
@@ -72,7 +145,7 @@ ul{
 }
 
 .card{
-    border: 1px solid red;
+    background-color: #3882F6;
 
 }
 
@@ -80,7 +153,9 @@ ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: #F9FAF8
 }
+
 
 .signup-title{
     border: 1px solid blue;
@@ -91,9 +166,8 @@ ul{
 }
 
 .footer{
-    border: 1px solid red;
     background-color: #1F2937;
-    color: white;
+    color: #F9FAF8;
     display: flex;
     justify-content: space-around;
 }
