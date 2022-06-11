@@ -1,8 +1,8 @@
 body{
+    margin:0px;
     display: flex;
     flex-direction: column;
     font-family:Arial, Helvetica, sans-serif;
-
 }
 
 ul{
@@ -10,143 +10,176 @@ ul{
     list-style-type: none;
 }
 
+img{
+    border-radius: 10px;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
 .header{
     background-color: #1F2937;
-
+    padding-left: 170px;
+    padding-right: 170px;
 }
 
 .header-top{
-    border: 1px solid black;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    margin-top: 10px;
+    margin-bottom: 100px;
 }
 
 .header-links{
-    border: 1px solid red;
     display: flex;
     flex-wrap: wrap;
     color: #E5E7EB;
     font-size: 18px;
+    gap: 30px;
+}
 
+.link{
+    color: #E5E7EB;
 }
 
 .header-logo{
-    border: 1px solid red;
-    font-size: 24px;
     color: #F9FAF8;
-
+    font-size: 24px;
 }
 
-
 .header-bottom{
-    border: 1px solid red;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    margin-bottom: 100px;
 }
 
 .header-title{
     display: flex;
-    flex: 1;
     flex-direction: column;
-    border: 1px solid red;
+    flex: 1;
 }
 
 .title{
-    border: 1px solid red;
+    color: #F9FAF8;
     font-size: 48px;
     font-weight: 800;
-    color: #F9FAF8;
 }
 
 .subtitle{
-    border: 1px solid red;
-    font-size: 18px;
     color: #E5E7EB;
+    font-size: 18px;
 }
 
 .signup-button{
-    border: 1px solid red;
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
     color: #F9FAF8;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    padding: 6px 20px 6px 20px;
+    border-radius: 7px;
+    width: 72px;
+
 }
 
 .header-img{
-    border: 1px solid red;
-    color: #F9FAF8;
     display: flex;
     flex-direction: column;
     flex: 1;
     align-items: flex-end;
+    color: #F9FAF8;
+    margin-left: 20px;
 }
+
+/** ------------------------------------- **/
 
 .main-img{
     display: flex;
     flex-direction: column;
-    border: 1px solid blue;
     flex:1;
- 
+    padding-left: 170px;
+    padding-right: 170px;
+    margin-bottom: 140px; 
 }
 
 .main-info{
     display:flex;
-    flex:1;
     justify-content: space-around;
+    flex:1;
+    color: #1F2937;
     font-size: 36px;
     font-weight: 800;
-    color: #1F2937;
+    margin: 40px;
 }
 
 .img{
- 
-    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
     width: 165px;
     height: 165px;
 }
-.main-container{
-    display: flex;
-    flex:1;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 40px;
+
+.img-container{
+    border: 4px solid #3882F6;
+    border-radius: 15px;
+    width: 165px;
+    height: 165px;
 }
 
+.img-subtitle{
+    color: grey;
+    font-weight:lighter;
+    padding: 5px 0px 0px 12px;
+}
+
+
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex:1;
+    gap: 40px;
+    row-gap: 100px;
+}
+
+/** ------------------------------------- **/
 
 
 .main-quote{
-    background-color: #E5E7EB;
-    border: 1px solid green;
     display: flex;
     flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 100px;
 }
 
 .quote{
-    border: 1px solid red;
+    color: #1F2937;
     font-size: 36px;
     font-weight:300;
-    color: #1F2937;
     font-style: italic;
 }
 
 .quote-name{
-    border: 1px solid green;
     align-self: flex-end;
     font-weight: bold;
-
 }
 
+/** ------------------------------------- **/
 
 
 .main-signup{
-    border: 1px solid orange;
-
+    padding: 50px;
 }
 
 .card{
     background-color: #3882F6;
-
+    padding: 25px 100px 25px 100px;
+    border-radius: 6px;
 }
 
 .card-content{
@@ -158,16 +191,17 @@ ul{
 
 
 .signup-title{
-    border: 1px solid blue;
+    font-weight: bolder;
 }
 
-.signup-text{
-    border: 1px solid red;
-}
+/** ------------------------------------- **/
+
 
 .footer{
-    background-color: #1F2937;
-    color: #F9FAF8;
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    height: 100px;
 }
